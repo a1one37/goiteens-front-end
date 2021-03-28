@@ -1,0 +1,115 @@
+main{
+    margin: 0 auto;
+    text-align: center;
+    width: 1210px;
+}
+.zagolovok{
+    margin-top: 130px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+line-height: 1.2;
+font-weight: 400;
+color: #333333;
+}
+
+.podzagolovok{
+font-size: 30px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+color: #333333;
+padding-top: 22px;
+
+}
+
+.podzagolovok::after{
+    content: "";
+    display: block;
+    background-color: #f38181;
+    width: 60px;
+height: 3px;
+margin: 40px auto 0 auto;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    
+}
+.firt_section_card{
+    padding-top: 70px;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: space-between;
+    width: 1170px;
+}
+.second_section_card{
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+
+}
+.card_img{
+    width: 32px;
+height: 31px;
+}
+.name_of_card{
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 400;
+text-transform: uppercase;
+color: #333333;
+}
+.paragraf_of_card{
+    font-family: 'Roboto', sans-serif;
+font-size: 15px;
+line-height: 24px;
+font-weight: 400;
+color: #999999;
+}
+.zagolovok2{
+    margin-top: 90px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+line-height: 1.2;
+font-weight: 400;
+color: #333333;
+}
+
+.text_second_section{
+    font-family: 'Roboto', sans-serif;
+font-size: 15px;
+line-height: 24px;
+font-weight: 400;
+color: #999999;
+margin-top: 50px;
+margin-bottom: 90px;
+}
+.photo_second_section{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.name_of_photo{
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 400;
+text-transform: uppercase;
+color: #333333;
+}
+.second_name_of_photo{
+    font-family: 'Roboto', sans-serif;
+font-size: 15px;
+line-height: 24px;
+font-weight: 300;
+font-style: italic;
+color: #999999;
+padding-top: 15px;
+}
