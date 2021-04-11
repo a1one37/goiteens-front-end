@@ -5,7 +5,7 @@ main{
 }
 .zagolovok{
     margin-top: 130px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script';
     font-size: 24px;
 line-height: 1.2;
 font-weight: 400;
@@ -14,11 +14,13 @@ color: #333333;
 
 .podzagolovok{
 font-size: 30px;
+font-family: 'Montserrat', sans-serif;
 line-height: 1.2;
 font-weight: 700;
 text-transform: uppercase;
 color: #333333;
 padding-top: 22px;
+
 
 }
 
@@ -36,22 +38,16 @@ margin: 40px auto 0 auto;
     width: 340px;
     
 }
-.firt_section_card{
+.sections_card{
     padding-top: 70px;
     margin: 0 auto;
     display: flex;
-    
     justify-content: space-between;
-    width: 1170px;
+    width: 1140px;
+    flex-wrap: wrap;
+    height: 300px;
 }
-.second_section_card{
-    padding-top: 100px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: 1170px;
 
-}
 .card_img{
     width: 32px;
 height: 31px;
@@ -63,6 +59,8 @@ line-height: 1.2;
 font-weight: 400;
 text-transform: uppercase;
 color: #333333;
+text-align: left;
+padding-bottom: 20px;
 }
 .paragraf_of_card{
     font-family: 'Roboto', sans-serif;
@@ -70,6 +68,7 @@ font-size: 15px;
 line-height: 24px;
 font-weight: 400;
 color: #999999;
+text-align: left;
 }
 .zagolovok2{
     margin-top: 90px;
@@ -112,4 +111,8 @@ font-weight: 300;
 font-style: italic;
 color: #999999;
 padding-top: 15px;
+}
+
+.div_card{
+    width: 276px;
 }
