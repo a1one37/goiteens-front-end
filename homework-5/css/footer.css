@@ -1,0 +1,60 @@
+.line1{
+    margin-top: 170px;
+    width: 1200px;
+    height: 1px;
+    background-color: #e5e5e5;
+}
+.form_description{
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 400;
+color: #333333;
+}
+.red_word{
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 400;
+    color: #f38181;
+}
+.footer_description{
+    margin-top: 25px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.email_form{
+    width: 230px;
+height: 40px;
+background-color: #ffffff;
+border: 1px solid #e7e7e7;
+margin-right: -4px;
+margin-bottom: 12px;
+
+}
+.footer_button{
+    width: 150px;
+height: 40px;
+background-color: #95e1d3;
+border: 1px solid transparent;
+}
+.text_button{
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+
+}
+.email_form::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: #cccccc;
+}
