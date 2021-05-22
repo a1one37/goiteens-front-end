@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Wisdom Script';
+    src: url(../fonts/Wisdom_Script_AJ.otf);
+    src: url(../fonts/WisdomScriptAJ.ttf) format('ttf');
+}
+header{
+    width: 950px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    align-items:baseline; 
+    
+}
+.logo_link{
+    font-size: 26px;
+    line-height: 41px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #fed136;
+    font-family: 'Wisdom Script';
+}
+.navigation{
+
+}
+.navigation_list{
+display: flex;
+justify-content: space-between;
+width: 470px;
+align-items: center;
+}
+.navigation_list_item{
+    
+}
+.navigation_list_item_link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+}
+.navigation_list_item_link:hover{
+     color: #fed136;;
+}
