@@ -1,0 +1,197 @@
+header{
+    width: 320px;
+    height: 540px;
+    background-color: #1a1915;    
+margin: 0 auto;
+text-align: center;
+background-image: url(../images/bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.registr{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+}
+
+.LogIn_button{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: transparent;
+}
+.LogIn_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.SignUp_button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: transparent;
+    position: relative;
+    z-index: 5;
+}
+.SignUp_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+.shape{
+    width: 90px;
+height: 36px;
+background-color: rgba(26,25,21,0.0);
+border: 2px solid #ffffff;
+border-radius: 20px;
+position: absolute;
+top: 0;
+margin-top: 13px;
+margin-left: 75px;
+    
+}
+
+.head_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-top: 109px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    position: absolute;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.second_head_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    width: 213px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.btn_find{
+    width: 280px;
+    height: 40px;
+    background-color: #ff4e50;
+    
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.btn_find_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+
+
+
+
+@media screen and (min-width: 768px){
+    header{
+        width: 768px;
+height: 700px;
+    
+    }
+
+    .header_logo_registr{
+        display: flex;
+        justify-content: space-between;
+        width: 670px;
+        margin: auto;
+        padding-top: 50px;
+        height: 10%;
+        margin-bottom: 160px;
+    }
+    
+    .registr{
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 ;
+        margin-bottom: 125px;
+    }
+    .head_title{
+        margin-top: 0;
+        margin-left: 0;
+        position: relative;
+    }
+    
+    
+  
+    
+    .shape{
+     margin-top: 43px;
+margin-left: 75px;
+         }
+    
+    
+    .title{
+       font-size: 52px;
+}
+    
+    .second_head_title{
+        font-family: 'Roboto', sans-serif;
+       width: 100%;
+font-size: 24px;
+margin-bottom: 35px;
+    }
+    
+    .btn_find{
+        width: 226px;
+
+        
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 1440px){
+    header{
+        width: 1440px;
+
+    
+    }
+
+    
+}

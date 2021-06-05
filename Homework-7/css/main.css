@@ -1,0 +1,198 @@
+main{
+    text-align: center;
+    margin: 0 auto;
+}
+.second_section_title{
+    font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+line-height: 1.2;
+font-weight: 700;
+color: #333333;
+margin-top: 70px;
+}
+.partner_card{
+    margin-top: 30px;
+}
+
+.partner_card:first-child{
+    margin-top: 15px;
+}
+
+.photo{
+    width: 121px;
+height: 121px;
+background-color: #fbfbfb;
+position: relative;
+}
+.sphere{
+    position: absolute;
+    width: 40px;
+height: 40px;
+display: block;
+margin-left: 183px;
+margin-top: -41px;
+}
+.icon{
+    position: absolute;
+    display: block;
+    margin-left: 194px;
+    margin-top: -30px;
+}
+
+.card_name{
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 700;
+color: #333333;
+margin-top: 20px;
+}
+.card_decription{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 300;
+color: #666666;
+}
+
+.btn_See_other_partners{
+    width: 280px;
+height: 40px;
+background-color: #ffffff;
+border: 2px solid #ff4e50;
+margin-top: 30px;
+border-radius: 20px;
+}
+
+.See_other_partners_text{
+    font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 700;
+color: #ff4e50;
+
+}
+
+.chemistry{
+    margin-left: 197px;
+    margin-top: -30px;
+}
+
+.coffee{
+    margin-left: 195px;
+    margin-top: -30px;
+}
+
+.telegram{
+    margin-left: 193px;
+    margin-top: -29px;
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+
+
+.partner_section{
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.partner_card{
+    margin-top: 60px;
+}
+.partner_card:first-child{
+    margin-top: 30px;
+}
+
+
+.first_men_card{
+order: 1;
+margin-top: 30px;
+}
+.second_men_card{
+    order: 3;
+}
+
+.first_women_card{
+order: 2;
+margin-top: 30px;
+}
+
+.second_women_card{
+order: 4;
+}
+
+.sphere{
+    
+margin-left: 128px;
+margin-top: -41px;
+}
+.icon{
+    
+    margin-left: 139px;
+
+    margin-top: -30px;
+}
+
+
+.card_decription{
+   
+width: 210px;
+}
+
+.btn_See_other_partners{
+  
+order: 5;
+margin: 40px auto 0 auto;
+}
+
+
+
+.chemistry{
+    margin-left: 142px;
+    margin-top: -30px;
+}
+
+.coffee{
+    margin-left: 140px;
+    margin-top: -31px;
+}
+
+.telegram{
+    margin-left: 138px;
+    margin-top: -29px;
+}
+}
+
+
+@media screen and (min-width: 1440px){
+    .partner_section{
+        display: flex;
+        width: 915px;
+        justify-content: space-between;
+        margin: 0 auto;
+       
+    }
+    
+    
+    .partner_card{
+        margin-top: 33px;
+    }
+    .partner_card:first-child{
+        margin-top: 33px;
+    }
+    
+    
+    
+    
+    
+}
