@@ -63,16 +63,15 @@ background-color: #ffffff;
 border: 2px solid #ff4e50;
 margin-top: 30px;
 border-radius: 20px;
-}
-
-.See_other_partners_text{
-    font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 line-height: 1.2;
 font-weight: 700;
 color: #ff4e50;
 
 }
+
+
 
 .chemistry{
     margin-left: 197px;
@@ -191,7 +190,9 @@ margin: 40px auto 0 auto;
         margin-top: 33px;
     }
     
-    
+    .btn_See_other_partners:hover{
+        cursor: pointer;
+            }
     
     
     
